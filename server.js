@@ -10,7 +10,7 @@ const middlewares = jsonServer.defaults();
 const rules = auth.rewriter({
   // Permission rules
   friends: 644,
-  users: 600,
+  // users: 600,
 })
 
 server.use(cors())
