@@ -9,7 +9,7 @@ const middlewares = jsonServer.defaults();
 
 const rules = auth.rewriter({
   // Permission rules
-  friends: 644,
+  // friends: 644,
   // users: 600,
 })
 
